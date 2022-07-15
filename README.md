@@ -49,3 +49,16 @@ A aplicação está configurada para rodar na porta 9090. Para acessar o **swagg
 Para facilitar seu trabalho já adicionamos o Junit e o Restassured, mas para a realização do teste não colocamos nenhuma restrição, portanto sinta-se a vontade em utilizar quaisquer ferramentas para a automação, assim como alterar as classes de teste que estamos enviando. Lembre-se sempre que os testes devem ser uma automação para as funcionalidades da API.
 
 **Dicas**: faça um fork deste projeto, clone o mesmo com o git em sua máquina, faça suas alterações e suba no seus repositório github;
+
+
+### Rodando o projeto com o Cypress
+
+Primeiro instale o node.js, precisa ser uma versão mais atualizada, então caso use uma mais antiga que a v8 ele provavelmente apresente falhas ou não funcione.
+
+Instalar o cypress -> npm install cypress -D
+
+Instalar o chance -> npm install chance -D
+
+Instalar o xpath -> npm install -D cypress-xpath
+
+Para abrir o cypress -> npx cypress open
